@@ -1,0 +1,13 @@
+.bg-header {
+    background-image: url('images/header-sape.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-pink:hover {
+    color: #fff;
+    background: #ff3494;
+    border-color: #ff3494;
+}
+.nav-link {
+    margin: 0 10px;
+}
