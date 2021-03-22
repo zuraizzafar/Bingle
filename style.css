@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
 .bg-header {
     background-image: url('images/header-sape.png');
     background-repeat: no-repeat;
@@ -10,4 +15,41 @@
 }
 .nav-link {
     margin: 0 10px;
+}
+.bg-purple {
+    background: #7d4196;
+}
+.content {
+    padding-top: 285px;
+}
+.mini-slider {
+    list-style: none;
+    padding: 0;
+}
+.mini-slider .active {
+    background: #7d4196!important;
+    color: white;
+}
+.mini-slider>li {
+    display: inline-block;
+    padding: 5px 30px;
+}
+.app-showcase {
+    color: #190a32;
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.app-showcase span {
+    color: #ff3494;
+}
+.bg-gradient {
+    background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 3px 4px 25px #C63A9580;
+    color: #fff;
+}
+.bg-gradient:hover {
+    background: transparent linear-gradient(270deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 3px 4px 25px #C63A9580;
+    color: #fff;
 }
