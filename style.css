@@ -53,3 +53,15 @@
     box-shadow: 3px 4px 25px #C63A9580;
     color: #fff;
 }
+.section-title h2 {
+    font-size: 38px;
+    color: #190a32;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+.service-icon {
+    text-align: center;
+}
+.bg-mobile-easy {
+    
+}
