@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #190a32;
     font-weight: 600;
 }
+.w-24 {
+    width: 24%!important;
+}
 .bg-purp {
     background: #190a32!important;
 }
@@ -31,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .bg-pink {
     background: white;
-    border-color: #ff3494;
+    box-shadow: 3px 4px 25px #C63A9580;
 }
 .bg-pink:hover {
     color: #fff;
@@ -149,3 +152,10 @@ h2 {
 /* .d-inline-block {
     vertical-align: top;
 } */
+.contact-card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px -15px rgba(0,0,0,0.75);
+    margin-bottom: 25px;
+    z-index: 99;
+    background-color: white;
+}
