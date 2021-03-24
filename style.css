@@ -11,8 +11,20 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.main-content>section {
-    background-image: url('images/header-sape-3.png');
+.container {
+    background-image: url('images/header-sape3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bg-nav {
+    background-image: url('images/pink-header-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bg-pink {
+    background: white;
+    border-color: #ff3494;
 }
 .bg-pink:hover {
     color: #fff;
@@ -21,6 +33,7 @@ html {
 }
 .nav-link {
     margin: 0 10px;
+    color: white!important;
 }
 .bg-purple {
     background: #7d4196;
