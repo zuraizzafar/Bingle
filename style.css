@@ -159,3 +159,33 @@ h2 {
     z-index: 99;
     background-color: white;
 }
+.faq-btn {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 30px;
+    padding-right: 30px;
+    width: 100%;
+    text-align: left;
+    padding-right: 55px;
+    background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+}
+.card {
+    margin-bottom: 15px;
+    box-shadow: 1px 3px 11px #00000026;
+}
+.card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: white;
+    border-bottom: none;
+}
+.card-header h2 {
+    font-size: unset;
+    margin: 0;
+    padding: 0;
+}
