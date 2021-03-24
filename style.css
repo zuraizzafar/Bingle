@@ -11,6 +11,9 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.main-content>section {
+    background-image: url('images/header-sape-3.png');
+}
 .bg-pink:hover {
     color: #fff;
     background: #ff3494;
