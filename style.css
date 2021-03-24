@@ -3,6 +3,9 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 .bg-header {
     background-image: url('images/header-sape.png');
     background-repeat: no-repeat;
@@ -53,7 +56,7 @@
     box-shadow: 3px 4px 25px #C63A9580;
     color: #fff;
 }
-.section-title h2 {
+h2 {
     font-size: 38px;
     color: #190a32;
     font-weight: 600;
@@ -62,6 +65,41 @@
 .service-icon {
     text-align: center;
 }
-.bg-mobile-easy {
-    
+.choose-area {
+    background-image: url('images/easy-m-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.choose-btn>a {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-right: 25px;
+    text-decoration: none;
+    border: #7D4196 solid 1px;
+}
+.app-text {
+    color: #7D4196;
+    display: inline-block;
+}
+.app-text>strong{
+    display: block;
+    color: #FF3494;
+}
+.app-icon {
+    color: #FF3494;
+    padding: 0 20px 0 0;
+    display: inline-block;
+}
+.choose-btn-links:hover {
+    background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 3px 4px 25px #C63A9580;
+    color: white!important;
+}
+.choose-btn-links:hover span {
+    color: white;
+}
+.choose-btn-links:hover strong {
+    color: white;
 }
